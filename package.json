@@ -19,5 +19,11 @@
   "homepage": "https://github.com/mscarla2/scraper-app#readme",
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "firebase-tools": "^9.16.5",
+    "g": "^2.0.1",
+    "init": "^0.1.2",
+    "selenium-webdriver": "^4.0.0-beta.4"
   }
 }
