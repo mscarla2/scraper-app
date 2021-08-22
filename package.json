@@ -2,10 +2,9 @@
   "name": "scraper-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "firebase deploy --only hosting:marcoscraperproject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,8 +22,6 @@
   },
   "dependencies": {
     "firebase-tools": "^9.16.5",
-    "g": "^2.0.1",
-    "init": "^0.1.2",
     "selenium-webdriver": "^4.0.0-beta.4"
   }
 }
