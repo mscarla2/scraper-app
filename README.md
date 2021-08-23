@@ -1,13 +1,25 @@
-# Scraper Project:
+# Scraper App
+
+## Developer
+
+Created by [Marco Scarlata](https://www.linkedin.com/in/marco-scarlata)
+
+
+## Inspiration
+
+As you go on through your job search, you sporatically run into good companies that have some things that make you really excited to be applying. Then, you run into the fact that they don't
+sponsor international students -- oftentimes later into the process than you would've liked. 
+
+
+## What it does
+
+This scraper app is something that I've built that mitigates this process by providing curated details on the top sponsoring companies, so that you can both make the application process easier for yourself
+as well as find a company that you resonate with that also provides statisically more sponsorships than a lot of other companies in the U.S
 
 ## Usage
-1. Run the follow command in the CLI while inside the file: `node --experimental-modules finder.js`
-2. This is will spit back a text.json file that is already in the app.js
 
-In the app.js file, simply just press the button and it will give you the ugliest pasted version of this table.
+1. Clone the repo
+2. CD into the file
+3. Run `streamlit run my_app.py`
 
-
-## Inception
----
-I made this because I wanted to initially have a good learning process for using selenium in Node.js but as it stands, I'll be focusing on the python version and then reading it in via JSON.
-
+Within the StreamLit UI, you can then select the "TOP OPT Listings" to generate a list of the top 100 companies that sponsor H1B visas for OPT students.
