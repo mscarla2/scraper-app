@@ -109,6 +109,8 @@ if st.button("GO"):
             'Scrape the follow points of data:',
             set(df_table['Company Name'])
         )
+        #TODO: Scrap company specific site for mission statement, perks, payments etc (keyvalue, lever, the company site etc)
+
         #
         # with st.spinner("Scraping directory"):
         #     scrap_prog = st.progress(0)
