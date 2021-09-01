@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3f4cd4d-299d-4fec-8d6d-925698d166ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/blog/static/blog/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/blog/templates/blog/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/blog/templates/blog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/blog/templates/blog/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/portfolio/static/portfolio/Marco_Scarlata_Resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/portfolio/static/portfolio/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/portfolio/templates/portfolio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/portfolio/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/users/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/users/templates/users/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Portfolio_Project/users/templates/users/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mscarla2.github.io/CNAME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mscarla2.github.io/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mscarla2.github.io/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multi-purpose-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../multi-purpose-app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multi-purpose-app/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multi-purpose-app/style.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="23b66e76-d6af-4d67-b7f9-0efe1486a94b" />
+  <component name="ProjectId" id="1x4syHy2QsgFCHF1sQCPV2N0fIC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3f4cd4d-299d-4fec-8d6d-925698d166ed" name="Default Changelist" comment="" />
+      <created>1629625948018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629625948018</updated>
+      <workItem from="1629625949047" duration="12970000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

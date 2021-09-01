@@ -8,6 +8,7 @@ import requests
 import math
 import time
 import base64
+from pathlib import Path
 
 # Selenium Imports
 from selenium.common.exceptions import NoSuchElementException
@@ -22,12 +23,12 @@ from selenium.webdriver.common.keys import Keys
 
 
 # Selenium initialization
-def initializeSelenium():
+def initializeSelenium(path):
     chrome_options = Options()
     chrome_options.add_argument("window-size=1200x600")
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--headless')
-    driver = Chrome(executable_path="/Users/marcoscarlata/Desktop/Projects/Scraper_Project/chromedriver",
+    driver = Chrome(executable_path=str(path) + "/chromedriver",
                     options=chrome_options)
     return driver
 
@@ -85,18 +86,20 @@ Welcome to the web scraping app!
 """)
 
 directory_option = st.selectbox(
-    'Scrape the follow points of data:',
+    'Scrape the following points of data:',
     ('Top OPT Companies', 'Other')
 )
 
 # Upon "GO" button submission
-if st.button("GO"):
+directory_button = st.button("GO")
+if directory_button:
     # Checks if it says "Other"
     if directory_option == 'Other':
         st.error("Invalid directory, please re-enter a correct value")
     else:
         with st.spinner("Scraping Top OPT Listings"):
-            driver = initializeSelenium()
+            path = Path(__file__).parent
+            driver = initializeSelenium(path)
             driver.implicitly_wait(3)
             link = "https://unitedopt.com/Home/blogdetail/top-companies-offering-opt-jobs-to-international-students-in-2021"
             accessSite(driver, link)
@@ -104,11 +107,19 @@ if st.button("GO"):
             df_table = pd.DataFrame(table, columns=['Company Name', 'Sector', 'Employee Number'])
             st.table(df_table)
 
-        st.success("Initialization complete!")
-        directory_option = st.selectbox(
-            'Scrape the follow points of data:',
-            set(df_table['Company Name'])
+        st.success("Scraping complete!")
+        company_option = st.selectbox(
+            'Search relevant information on company:',
+            set(df_table['Company Name'][:5])
         )
+        company_button = st.button("GO")
+        if company_button:
+            # TODO: MASSIVE ENDEAVOR OF ADDING IN ALL OF THESE COMPANIES
+            if company_option == 'Amazon':
+                st.text = "This company fucks"
+            else:
+                st.error("Information relevant to this company is currently unavailable. It will be in due time but in the meantime, please choose another!")
+
         #TODO: Scrap company specific site for mission statement, perks, payments etc (keyvalue, lever, the company site etc)
 
         #
