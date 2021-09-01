@@ -20,6 +20,8 @@ as well as find a company that you resonate with that also provides statisically
 
 1. Clone the repo
 2. CD into the file
-3. Run `streamlit run my_app.py`   (*Note*: If you're encountering a path issue with chromedriver, please make sure its in the same folder as the my_app.py file)
+3. Run `streamlit run my_app.py`   
+
+(*Note*: If you're encountering a path issue with chromedriver, please make sure its in the same folder as the my_app.py file)
 
 Within the StreamLit UI, you can then select the "TOP OPT Listings" to generate a list of the top 100 companies that sponsor H1B visas for OPT students.
