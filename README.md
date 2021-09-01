@@ -20,7 +20,7 @@ as well as find a company that you resonate with that also provides statisically
 
 1. Clone the repo
 2. CD into the file
-3. Run `streamlit run my_app.py`   
+3. Run `streamlit run my_app.py` in the terminal
 
 (*Note*: If you're encountering a path issue with chromedriver, please make sure its in the same folder as the my_app.py file)
 
