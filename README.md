@@ -1,4 +1,4 @@
-# Scraper App
+# OPT Assist -- Scraper App
 
 ## Developer
 
